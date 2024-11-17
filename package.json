@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-svelte-checker",
+  "version": "0.1.0",
+  "description": "Vite plugin to check Svelte projects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianCarrasco/vite-plugin-svelte-checker.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "FabianCarrasco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabianCarrasco/vite-plugin-svelte-checker/issues"
+  },
+  "homepage": "https://github.com/FabianCarrasco/vite-plugin-svelte-checker#readme"
+}
