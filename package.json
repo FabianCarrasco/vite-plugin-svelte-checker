@@ -4,7 +4,8 @@
   "description": "Vite plugin to check Svelte projects.",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
