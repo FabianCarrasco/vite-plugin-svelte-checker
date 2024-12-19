@@ -1,3 +1,5 @@
+import { BundledTheme } from "shiki";
+
 export interface SvelteMessage {
     type: string;
     filename: string;
@@ -12,4 +14,16 @@ export interface SvelteMessage {
     message: string;
     code: number;
     source: string | undefined;
+}
+
+export interface Options {
+    typescript?: | {
+        tsConfigPath: string
+    } | boolean,
+    cli?: {
+        enabled?: boolean,
+        theme?: BundledTheme
+    } | boolean,
+    overlay?: boolean,
+    ignoreWarnings?: boolean,
 }
