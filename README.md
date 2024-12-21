@@ -1,5 +1,15 @@
 # Vite-Plugin-Svelte-Checker
 
+A Vite plugin for checking Svelte files with Typescript support.
+
+![CLI Screenshot](assets/screenshots/CLI1.png)
+
+![Browser Screenshot](assets/screenshots/Browser1.png)
+
+# Try It Online
+
+You can try this plugin directly in your browser using this [StackBlitz example](https://stackblitz.com/edit/vitejs-vite-s9hpfhhs?file=src%2FApp.svelte).
+
 # Installation
 
 ```bash
